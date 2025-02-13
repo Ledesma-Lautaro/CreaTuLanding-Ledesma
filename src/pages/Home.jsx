@@ -6,33 +6,32 @@ import CardList from "../components/sections/CardList";
 const products = [
   {
     id: 1,
-    name: "Stylish T-Shirt",
-    description: "Comfortable and trendy t-shirt for everyday wear.",
-    price: 25.99,
-    image: "https://via.placeholder.com/300",
+    name: "Classic Glazed Donut",
+    description: "A timeless favorite with a sweet, glossy glaze.",
+    price: 3,
+    image: "/images/donuts.jpg",
   },
   {
     id: 2,
-    name: "Classic Jeans",
-    description: "Durable and stylish jeans for any occasion.",
-    price: 49.99,
-    image: "https://via.placeholder.com/300",
+    name: "Chocolate Sprinkle Donut",
+    description: "Rich chocolate frosting topped with colorful sprinkles.",
+    price: 4,
+    image: "/images/donuts.jpg",
   },
   {
     id: 3,
-    name: "Running Shoes",
-    description: "Lightweight and breathable shoes for running.",
-    price: 79.99,
-    image: "https://via.placeholder.com/300",
+    name: "Strawberry Frosted Donut",
+    description: "Delicious strawberry frosting with a soft, fluffy base.",
+    price: 4,
+    image: "/images/donuts.jpg",
   },
   {
     id: 4,
-    name: "Winter Jacket",
-    description: "Warm and cozy jacket for cold weather.",
-    price: 99.99,
-    image: "https://via.placeholder.com/300",
+    name: "Maple Bacon Donut",
+    description: "Sweet maple glaze with crispy bacon bits on top.",
+    price: 5,
+    image: "/images/donuts.jpg",
   },
-  // Add more products as needed
 ];
 
 const Home = () => {
