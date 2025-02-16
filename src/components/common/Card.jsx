@@ -1,4 +1,5 @@
 import React from "react";
+import SecondaryButton from "./SecondaryButton";
 
 const Card = ({ product }) => {
   return (
@@ -17,9 +18,7 @@ const Card = ({ product }) => {
           <span className="text-lg font-bold text-cyan-600">
             ${product.price}
           </span>
-          <button className="px-4 py-2 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors duration-300">
-            Add to Cart
-          </button>
+          <SecondaryButton text="Add to Cart" />
         </div>
       </div>
     </div>

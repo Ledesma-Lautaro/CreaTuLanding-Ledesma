@@ -1,4 +1,5 @@
 import React from "react";
+import PrimaryButton from "../common/PrimaryButton";
 
 const HeroSection = () => {
   return (
@@ -14,12 +15,8 @@ const HeroSection = () => {
           ingredients. Perfect for any occasion!
         </p>
         <div className="flex gap-4 justify-center">
-          <a
-            href="#"
-            className="px-6 py-3 bg-white text-cyan-600 font-semibold rounded-lg hover:bg-gray-100 transition duration-300"
-          >
-            Order Now
-          </a>
+          <PrimaryButton text="Order Now" />
+          <PrimaryButton text="Learn More" />
         </div>
       </div>
     </div>
